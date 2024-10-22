@@ -8,6 +8,7 @@ public class Lec3 {
         */
 
         byte mynum = 100 ;
+//        byte xy =  4000 ; -- this is wrong as it can store from the -128 to 127
         System.out.println(mynum);
 
 
@@ -60,6 +61,29 @@ A floating point number can also be a scientific
         double d1 = 12E4d;
         System.out.println(f1);
         System.out.println(d1);
+
+
+        /*
+* Non-Primitive Data Types
+*
+Non-primitive data types are called reference types because they refer to objects.
+
+The main difference between primitive and non-primitive data types are:
+
+Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+A primitive type always has a value, while non-primitive types can be null.
+*
+A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+*
+*
+* Primitive types (e.g., int, char, float, etc.) always hold a value and cannot be null. They have default values (e.g., 0 for integers, false for booleans).
+
+Non-primitive types (e.g., objects, arrays, strings) are references to objects and can be set to null, meaning they do not point to any object in memory at that moment.
+
+ *
+ */
+
 
     }
 }
