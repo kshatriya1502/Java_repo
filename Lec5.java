@@ -2,11 +2,13 @@
 
 /*
 NOTE :
-No, in Java, a String is not a primitive type. It is a non-primitive or reference type. While Java provides convenient ways to work with strings (like primitive types), strings are actually objects of the String class.
+No, in Java, a String is not a primitive type. It is a non-primitive or reference type. While Java provides convenient ways to work with strings (like primitive types),
+ strings are actually objects of the String class.
 
 Key points:
 
 Strings can be null because they are objects.
+
 String is part of the Java standard library (java.lang.String), and it provides methods to manipulate strings.
 Although you can work with strings in a simple way (e.g., "Hello"), internally, they are objects and managed differently than primitive types.
 
@@ -38,9 +40,11 @@ public class Lec5 {
 
         // indexOf() :
         /*
-        The indexOf() method returns the index (the position) of the first occurrence
+
+         The indexOf() method returns the index (the position) of the first occurrence
          of a specified text in a string (including whitespace):
-         */
+
+       */
 
         txt = "abccaadeffghijklmnop" ;
         System.out.println(txt.indexOf("a"));

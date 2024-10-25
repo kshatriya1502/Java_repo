@@ -19,8 +19,8 @@ public class Lec2 {
         * used to store basic data. They are the building blocks of data
         * manipulation  and cannot be further divided into simpler data types.
 
-        *
-        * */
+
+        */
 
 
 //
